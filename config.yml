@@ -1,0 +1,5 @@
+package:
+  type: plugin
+  name: design_preview
+  version: '0.0.1'
+  author: 'Juan Pablo Marzetti'

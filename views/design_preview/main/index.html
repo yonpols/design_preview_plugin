@@ -1,0 +1,15 @@
+<div id="toolbar">
+    <form method="post" target="content">
+        <label for="layout">Layout:</label>
+        {%form_select('layout', layouts)}
+
+        <label for="view_name">View:</label>
+        {%form_select('view_name', views)}
+
+        <input type="submit" value="Preview" />
+    </form>
+
+</div>
+<div id="frame">
+    <iframe id="content" width="100%" height="100%" frameborder="0"></iframe>
+</div>
